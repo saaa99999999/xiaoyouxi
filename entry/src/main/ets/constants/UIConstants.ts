@@ -1,0 +1,63 @@
+// 亮色主题
+export type AppTheme = typeof LightTheme;
+
+export const LightTheme = {
+  bgPrimary: '#F5F5F5',
+  bgCard: '#FFFFFF',
+  bgGame: '#FAFAFA',
+  textPrimary: '#212121',
+  textSecondary: '#757575',
+  brandBlue: '#007DFF',
+  accentOrange: '#FF6B35',
+  successGreen: '#00C853',
+  warningYellow: '#FFD600',
+  errorRed: '#FF5252',
+  divider: '#E0E0E0',
+  shadow: 'rgba(0,0,0,0.08)',
+  cardRadius: 16,
+  spacingXs: 4,
+  spacingSm: 8,
+  spacingMd: 16,
+  spacingLg: 24,
+  spacingXl: 32,
+  fontSizeXs: 12,
+  fontSizeSm: 14,
+  fontSizeMd: 16,
+  fontSizeLg: 20,
+  fontSizeXl: 24,
+  fontSizeTitle: 28,
+  fontWeightNormal: 400,
+  fontWeightBold: 700,
+  elevationCard: 4
+};
+
+// 暗色主题
+export const DarkTheme = {
+  bgPrimary: '#0D0D0D',
+  bgCard: '#1A1A1A',
+  bgGame: '#121212',
+  textPrimary: '#E8E8E8',
+  textSecondary: '#9E9E9E',
+  brandBlue: '#3399FF',
+  accentOrange: '#FF8555',
+  successGreen: '#00E676',
+  warningYellow: '#FFE54B',
+  errorRed: '#FF6E6E',
+  divider: '#2C2C2C',
+  shadow: 'rgba(0,0,0,0.4)',
+  cardRadius: 16,
+  spacingXs: 4,
+  spacingSm: 8,
+  spacingMd: 16,
+  spacingLg: 24,
+  spacingXl: 32,
+  fontSizeXs: 12,
+  fontSizeSm: 14,
+  fontSizeMd: 16,
+  fontSizeLg: 20,
+  fontSizeXl: 24,
+  fontSizeTitle: 28,
+  fontWeightNormal: 400,
+  fontWeightBold: 700,
+  elevationCard: 4
+};

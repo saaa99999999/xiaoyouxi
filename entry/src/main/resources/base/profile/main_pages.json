@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/SplashPage",
+    "pages/MainPage",
+    "pages/DeviceConnectPage",
+    "pages/GameContainerPage",
+    "pages/StorePage",
+    "pages/StatsPage",
+    "pages/PrivacyPage"
+  ]
+}

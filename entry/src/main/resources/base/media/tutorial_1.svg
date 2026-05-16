@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="16" fill="#F5F5F5"/>
+  <g transform="translate(200,120)">
+    <rect x="-80" y="-60" width="160" height="120" rx="12" fill="#E3F2FD" stroke="#007DFF" stroke-width="2"/>
+    <rect x="-60" y="-40" width="50" height="60" rx="4" fill="#007DFF" opacity="0.3"/>
+    <rect x="10" y="-40" width="50" height="60" rx="4" fill="#FF6B35" opacity="0.3"/>
+    <text x="0" y="15" text-anchor="middle" font-size="32" font-family="sans-serif">🎮</text>
+  </g>
+  <text x="200" y="200" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#424242" font-weight="bold">选择游戏</text>
+  <text x="200" y="230" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#9E9E9E">从4款双人协作小游戏中选择</text>
+</svg>

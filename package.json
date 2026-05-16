@@ -1,0 +1,23 @@
+{
+  "name": "synctap",
+  "version": "1.0.0",
+  "description": "SyncTap - Multi-device cooperative mini-games on HarmonyOS",
+  "private": true,
+  
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "harmonyos",
+    "distributed",
+    "cooperative-games"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}

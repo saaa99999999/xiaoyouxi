@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="16" fill="#F5F5F5"/>
+  <g transform="translate(200,110)">
+    <circle r="60" fill="#00C853" opacity="0.15"/>
+    <text x="0" y="8" text-anchor="middle" font-size="48" font-family="sans-serif">🤝</text>
+  </g>
+  <text x="200" y="200" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#424242" font-weight="bold">开始协作</text>
+  <text x="200" y="230" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#9E9E9E">两台设备各司其职，默契配合</text>
+</svg>

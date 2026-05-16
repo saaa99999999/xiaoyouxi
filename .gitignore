@@ -1,0 +1,38 @@
+# Build
+build/
+.intermediates/
+
+# IDE
+.idea/
+.hvigor/
+.cxx/
+.appanalyzer/
+
+# Node
+node_modules/
+oh_modules/
+
+# Signing & keys
+autosign/
+
+# Temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local config
+local.properties
+
+# Build outputs
+entry/build/
+
+# Plans & docs (dev only)
+IMPLEMENTATION_PLAN.md
+OPTIMIZATION_PLAN.md
+build.sh
+build_release.sh
+app_icon_*.png
+
+# Hvigor cache
+hvigor/

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 780" width="360" height="780">
+  <defs>
+    <radialGradient id="centerGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E8EAF6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F5F5F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C4DFF" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#536DFE" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- 柔和渐变背景 -->
+  <rect width="360" height="780" fill="#F5F5F5"/>
+  <rect width="360" height="780" fill="url(#centerGlow)"/>
+  <!-- 星尘效果 -->
+  <g opacity="0.08">
+    <circle cx="50" cy="100" r="2" fill="#7C4DFF"/>
+    <circle cx="310" cy="150" r="1.5" fill="#536DFE"/>
+    <circle cx="120" cy="250" r="1" fill="#7C4DFF"/>
+    <circle cx="240" cy="350" r="1.5" fill="#536DFE"/>
+    <circle cx="80" cy="500" r="1" fill="#7C4DFF"/>
+    <circle cx="280" cy="600" r="2" fill="#536DFE"/>
+    <circle cx="180" cy="450" r="1" fill="#7C4DFF"/>
+    <circle cx="40" cy="680" r="1.5" fill="#536DFE"/>
+    <circle cx="320" cy="720" r="1" fill="#7C4DFF"/>
+  </g>
+  <!-- 分割线 -->
+  <line x1="20" y1="390" x2="340" y2="390" stroke="#E0E0E0" stroke-width="1.5"/>
+  <!-- 顶部装饰条 -->
+  <rect x="0" y="0" width="360" height="4" fill="url(#topBar)"/>
+  <!-- 区域标签 -->
+  <text x="180" y="380" text-anchor="middle" font-size="12" font-family="sans-serif" fill="#BDBDBD">对方卡牌</text>
+  <text x="180" y="410" text-anchor="middle" font-size="12" font-family="sans-serif" fill="#BDBDBD">我的卡牌</text>
+</svg>

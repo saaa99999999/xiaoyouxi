@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 - 默契挑战 (SyncTap)</title>
+<style>
+  :root {
+    --primary: #4A90D9;
+    --primary-dark: #3570B0;
+    --text: #2C3E50;
+    --text-light: #5D6D7E;
+    --bg: #F8F9FA;
+    --card: #FFFFFF;
+    --border: #E8ECF0;
+    --accent: #EAF2FB;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: #FFFFFF;
+    padding: 40px 20px 30px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+  }
+
+  .header .app-name {
+    font-size: 15px;
+    opacity: 0.85;
+    margin-bottom: 14px;
+  }
+
+  .header .update-date {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+  }
+
+  .intro {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    font-size: 15px;
+    color: var(--text-light);
+    border-left: 4px solid var(--primary);
+  }
+
+  .section {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 22px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .section h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section h2 .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: var(--accent);
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .section p {
+    font-size: 14.5px;
+    margin-bottom: 10px;
+    color: var(--text);
+  }
+
+  .section p:last-child {
+    margin-bottom: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    font-size: 14.5px;
+    padding: 8px 0 8px 24px;
+    position: relative;
+    color: var(--text);
+  }
+
+  ul li::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 16px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary);
+  }
+
+  ul li.sub {
+    padding-left: 44px;
+    color: var(--text-light);
+    font-size: 13.5px;
+  }
+
+  ul li.sub::before {
+    left: 26px;
+    top: 15px;
+    width: 5px;
+    height: 5px;
+    background: var(--text-light);
+    opacity: 0.5;
+  }
+
+  .highlight {
+    background: #FFF8E1;
+    border: 1px solid #FFE082;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 12px 0;
+    font-size: 13.5px;
+    color: #6D4C00;
+    line-height: 1.7;
+  }
+
+  .highlight strong {
+    color: #E65100;
+  }
+
+  .contact-box {
+    background: var(--accent);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .contact-box .email {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-top: 4px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: var(--text-light);
+    opacity: 0.6;
+  }
+
+  @media (max-width: 400px) {
+    .header { padding: 30px 16px 24px; }
+    .header h1 { font-size: 19px; }
+    .container { padding: 16px 12px 36px; }
+    .section { padding: 16px 14px; }
+    .section h2 { font-size: 15.5px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>隐私政策</h1>
+  <div class="app-name">默契挑战 (SyncTap)</div>
+  <div class="update-date">更新日期：2026年5月16日</div>
+</div>
+
+<div class="container">
+
+  <div class="intro">
+    默契挑战 (SyncTap)（以下简称"本应用"）非常重视您的隐私保护。本隐私政策旨在向您说明本应用收集、使用、存储和保护个人信息的相关规则。请您在使用本应用前，仔细阅读本隐私政策。
+  </div>
+
+  <!-- 1. 信息收集 -->
+  <div class="section">
+    <h2><span class="icon">📋</span>一、信息收集说明</h2>
+    <p>本应用仅收集以下必要信息以保障应用正常运行：</p>
+    <ul>
+      <li><strong>设备信息</strong>：设备型号、操作系统版本</li>
+      <li class="sub">用途：确保应用与您的设备兼容，提供最佳体验</li>
+      <li><strong>本地游戏数据</strong>：游戏得分、胜负记录等统计信息</li>
+      <li class="sub">用途：保存游戏进度与历史记录，提升游戏体验</li>
+    </ul>
+    <div class="highlight">
+      <strong>本应用明确声明：</strong><br>
+      &#8226; 不收集任何个人身份识别信息（如姓名、身份证号、手机号等）<br>
+      &#8226; 不收集位置信息<br>
+      &#8226; 不访问摄像头或麦克风
+    </div>
+  </div>
+
+  <!-- 2. 权限使用 -->
+  <div class="section">
+    <h2><span class="icon">🔑</span>二、权限使用说明</h2>
+    <p>本应用请求以下系统权限：</p>
+    <ul>
+      <li><strong>分布式数据同步权限（ohos.permission.DISTRIBUTED_DATASYNC）</strong></li>
+      <li class="sub">用途：在附近设备之间同步多人游戏数据，实现跨设备联机对战功能</li>
+      <li class="sub">该权限需要您明确授权后方可使用，您可随时在系统设置中关闭此权限</li>
+      <li><strong>振动权限</strong></li>
+      <li class="sub">用途：在游戏过程中提供触觉反馈效果，增强游戏体验</li>
+      <li class="sub">该权限为常规权限，无需用户额外授权</li>
+    </ul>
+  </div>
+
+  <!-- 3. 数据存储与安全 -->
+  <div class="section">
+    <h2><span class="icon">🔒</span>三、数据存储与安全</h2>
+    <ul>
+      <li>所有数据均存储在您的设备本地，使用 HarmonyOS 应用沙箱机制进行加密隔离保护</li>
+      <li>本应用使用 AppStorage 及持久化存储方式保存本地数据</li>
+      <li>本应用<strong>不使用任何云服务器</strong>存储您的数据</li>
+      <li>HarmonyOS 沙箱机制确保其他应用无法访问本应用的数据</li>
+    </ul>
+  </div>
+
+  <!-- 4. 数据共享 -->
+  <div class="section">
+    <h2><span class="icon">🤝</span>四、数据共享</h2>
+    <ul>
+      <li>本应用<strong>不会</strong>将您的任何数据共享给第三方</li>
+      <li>多人联机游戏的同步数据仅在您本人已配对的设备之间通过 HarmonyOS 分布式数据同步通道传输</li>
+      <li>传输过程中的数据仅包含游戏状态信息（如操作指令、游戏进度），不包含任何个人身份数据</li>
+    </ul>
+  </div>
+
+  <!-- 5. 儿童隐私 -->
+  <div class="section">
+    <h2><span class="icon">👶</span>五、儿童隐私保护</h2>
+    <ul>
+      <li>本应用内容适合全年龄段用户使用</li>
+      <li>本应用不收集任何儿童的个人数据</li>
+      <li>本应用不包含任何需要注册账号的功能</li>
+      <li>家长可放心让儿童使用本应用</li>
+    </ul>
+  </div>
+
+  <!-- 6. 用户权利 -->
+  <div class="section">
+    <h2><span class="icon">👤</span>六、用户权利</h2>
+    <ul>
+      <li>本应用无需注册任何账号即可使用全部功能</li>
+      <li>您可以随时通过卸载本应用来清除所有本地存储的数据</li>
+      <li>卸载后，所有本地游戏数据将被永久删除且不可恢复</li>
+      <li>您可以在系统设置中随时开启或关闭分布式数据同步权限</li>
+    </ul>
+  </div>
+
+  <!-- 7. 政策更新 -->
+  <div class="section">
+    <h2><span class="icon">📝</span>七、隐私政策更新</h2>
+    <p>本应用可能会不时更新本隐私政策。更新后的隐私政策将在本页面发布，并以更新日期为准。重大变更时，我们将在应用内通过适当方式通知您。</p>
+    <p>建议您定期查阅本隐私政策，以了解我们如何保护您的信息。</p>
+  </div>
+
+  <!-- 8. 联系方式 -->
+  <div class="section">
+    <h2><span class="icon">✉️</span>八、联系方式</h2>
+    <p>如您对本隐私政策有任何疑问、意见或建议，欢迎通过以下方式与我们联系：</p>
+    <div class="contact-box">
+      <div>电子邮箱</div>
+      <div class="email">synctap.game@example.com</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  默契挑战 (SyncTap) &copy; 2026 &nbsp;|&nbsp; 隐私政策最终解释权归本应用所有
+</div>
+
+</body>
+</html>

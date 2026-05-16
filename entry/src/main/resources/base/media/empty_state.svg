@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="16" fill="#F5F5F5"/>
+  <g transform="translate(100,80)">
+    <rect x="-40" y="-30" width="80" height="60" rx="8" fill="#E0E0E0"/>
+    <circle cx="-15" cy="-5" r="6" fill="#BDBDBD"/>
+    <circle cx="15" cy="-5" r="6" fill="#BDBDBD"/>
+    <rect x="-20" y="10" width="40" height="8" rx="4" fill="#BDBDBD"/>
+  </g>
+  <text x="100" y="130" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#9E9E9E">未发现设备</text>
+</svg>

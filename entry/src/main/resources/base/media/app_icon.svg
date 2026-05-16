@@ -1,0 +1,51 @@
+<svg width="216" height="216" viewBox="0 0 216 216" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#007DFF"/>
+      <stop offset="100%" stop-color="#536DFE"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- 主背景 -->
+  <rect width="216" height="216" rx="48" fill="url(#bgGrad)"/>
+  <!-- 内框 -->
+  <rect x="12" y="12" width="192" height="192" rx="42" fill="url(#innerGrad)" stroke="white" stroke-opacity="0.15" stroke-width="1.5"/>
+  <!-- 左手机 -->
+  <g transform="translate(52, 56)">
+    <rect x="0" y="0" width="44" height="72" rx="8" fill="white" opacity="0.9"/>
+    <rect x="4" y="10" width="36" height="48" rx="2" fill="#E3F2FD"/>
+    <circle cx="22" cy="66" r="3" fill="#BDBDBD"/>
+    <!-- 手指点击波纹 -->
+    <circle cx="22" cy="34" r="10" fill="#007DFF" opacity="0.15"/>
+    <circle cx="22" cy="34" r="5" fill="#007DFF" opacity="0.3"/>
+  </g>
+  <!-- 右手机 -->
+  <g transform="translate(120, 56)">
+    <rect x="0" y="0" width="44" height="72" rx="8" fill="white" opacity="0.9"/>
+    <rect x="4" y="10" width="36" height="48" rx="2" fill="#FFF3E0"/>
+    <circle cx="22" cy="66" r="3" fill="#BDBDBD"/>
+    <!-- 手指点击波纹 -->
+    <circle cx="22" cy="34" r="10" fill="#FF6B35" opacity="0.15"/>
+    <circle cx="22" cy="34" r="5" fill="#FF6B35" opacity="0.3"/>
+  </g>
+  <!-- 连接弧线 -->
+  <path d="M96 80 Q108 65 120 80" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" filter="url(#glow)" opacity="0.8"/>
+  <path d="M96 90 Q108 75 120 90" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <!-- 同步信号点 -->
+  <circle cx="108" cy="72" r="3" fill="white" opacity="0.9"/>
+  <circle cx="103" cy="70" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="113" cy="70" r="1.5" fill="white" opacity="0.5"/>
+  <!-- 底部文字 -->
+  <text x="108" y="158" text-anchor="middle" font-size="18" font-family="sans-serif" fill="white" font-weight="bold" opacity="0.9">SyncTap</text>
+  <text x="108" y="174" text-anchor="middle" font-size="10" font-family="sans-serif" fill="white" opacity="0.5">默契挑战</text>
+</svg>
